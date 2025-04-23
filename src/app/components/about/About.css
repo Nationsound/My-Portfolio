@@ -1,0 +1,223 @@
+/* about.css */
+
+/* Section Styling */
+.about-section {
+    padding: 80px 0;
+    background-color: #f3f4f6; /* Equivalent to bg-gray-100 */
+  }
+  
+  /* Container */
+  .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+  
+  /* Flex Layout */
+  .about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  @media (min-width: 768px) {
+    .about-content {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+  }
+  
+  /* Image Styling */
+  .profile-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Text Content */
+  .about-text {
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .about-text {
+      text-align: left;
+    }
+  }
+  
+  .about-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1f2937; /* Equivalent to text-gray-800 */
+    margin-bottom: 16px;
+  }
+  .about-heading-a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1f2937; /* Equivalent to text-gray-800 */
+    margin-bottom: 16px;
+  }
+  
+  .about-description {
+    font-size: 1.125rem;
+    color: #4b5563; /* Equivalent to text-gray-600 */
+    margin-bottom: 16px;
+  }
+
+  .links-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1f2937;
+    margin-top: 16px;
+  }
+  
+  .links-list {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .links-list li {
+    margin-top: 8px;
+  }
+  
+  .links-list a {
+    color: #2563eb;
+    text-decoration: none;
+  }
+  
+  .links-list a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Skills List */
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .skills-list {
+      justify-content: flex-start;
+    }
+  }
+  
+  .skill-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background-color: #3b82f6; /* Equivalent to bg-blue-500 */
+    color: white;
+    border-radius: 20px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+  }
+  
+  .skill-item:hover {
+    transform: scale(1.1);
+  }
+  /* 🎓 Education Timeline Styles */
+.education-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.timeline-item:hover {
+  transform: scale(1.05);
+}
+
+.timeline-icon {
+  font-size: 2rem;
+  color: #2563eb;
+}
+
+.school-name {
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #1f2937;
+  margin-bottom: 5px;
+}
+
+.timeline-text {
+  font-size: 1rem;
+  color: #4b5563; /* Equivalent to text-gray-600 */
+}
+
+/* Media Query for Larger Screens */
+@media (min-width: 768px) {
+  .education-timeline {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .timeline-item {
+    width: 45%;
+  }
+}
+/* 🎶 Songwriter Section Styles */
+.song-list {
+  margin-top: 30px;
+}
+
+.song-description {
+  font-size: 1.1rem;
+  color: #4b5563;
+  margin-bottom: 20px;
+}
+
+.song-item {
+  margin-bottom: 15px;
+}
+
+.song-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 5px;
+}
+
+.song-date {
+  font-size: 1rem;
+  color: #4b5563;
+}
+
+.song-link {
+  font-size: 1rem;
+  color: #2563eb;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.song-link:hover {
+  color: #1d4ed8;
+}
+
+/* Media Query for Larger Screens */
+@media (min-width: 768px) {
+  .song-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+}
+
+    

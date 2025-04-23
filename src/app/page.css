@@ -1,0 +1,29 @@
+/* styles/page.css */
+
+.main-container {
+    background-color: #111827; /* Dark Gray */
+    color: white;
+  }
+  
+  .contact-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2937; /* Darker Gray */
+    text-align: center;
+  }
+  
+  .contact-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-text {
+    font-size: 1.125rem;
+    color: #d1d5db; /* Light Gray */
+    max-width: 600px;
+  }
+  
