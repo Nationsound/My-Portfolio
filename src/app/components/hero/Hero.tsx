@@ -1,5 +1,5 @@
 "use client";
-import styles from './Hero.module.css'; // Import styles as an object
+import styles from './Hero.module.css';
 
 const Hero = () => {
   return (
@@ -16,9 +16,7 @@ const Hero = () => {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 100 100"
-        className="hero-svg"
-        width="150"
-        height="150"
+        className={styles.heroSvg}
       >
         <circle cx="50" cy="50" r="40" stroke="black" strokeWidth="3" fill="yellow" />
       </svg>

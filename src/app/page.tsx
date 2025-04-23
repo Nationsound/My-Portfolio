@@ -3,7 +3,7 @@ import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
-import Projects from "./components/projects/Project";
+import Project from "./components/projects/Project";
 import "./page.css";
 
 export default function Home() {
@@ -20,7 +20,7 @@ export default function Home() {
         <About />
 
         {/* Project Section */}
-        <Projects />
+        <Project />
 
        {/* Contact Section */}
        <section id="contact" className="contact-section">
