@@ -25,9 +25,8 @@ export default function Home() {
        {/* Contact Section */}
        <section id="contact" className="contact-section">
           <h2 className="contact-heading">Get in Touch</h2>
-          <p className="contact-text">
-            Feel free to reach out! I'm always open to new opportunities and collaborations.
-          </p>
+          <p className="contact-text">Feel free to reach out! I&apos;m always open to new opportunities and collaborations.</p>
+
         </section>
 
 

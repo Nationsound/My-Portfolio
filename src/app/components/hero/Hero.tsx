@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className={styles.hero}>
       <div className={styles.heroContent}>
-        <h1 className={styles.heroTitle}>Hi, I'm Olusola Adebayo Oguntuase</h1>
+        <h1 className={styles.heroTitle}>Hi, I&apos;m Olusola Adebayo Oguntuase</h1>
         <h4 className={styles.heroSubtitle}>Full-Stack Developer | Music Producer | Mixing & Mastering Engineer</h4>
         <p className={styles.heroSubtitle}>
           A passionate web developer specializing in Next.js, React, Node.js and modern web technologies.

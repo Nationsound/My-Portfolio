@@ -37,7 +37,7 @@ const About = () => {
           <div className="about-text">
             <h2 className="about-heading">About Me</h2>
             <p className="about-description">
-              Hi, I'm{" "}
+              Hi, I&apos;m{" "}
               <span style={{ fontWeight: "bold", color: "#2563EB" }}>
                 Olusola Adebayo Oguntuase
               </span>
@@ -50,12 +50,12 @@ const About = () => {
             <p className="about-description">
               My journey started with curiosity about how websites work, and now
               I specialize in modern frameworks like Next.js, React, HTML, CSS,
-              and Node.js. When I'm not coding, I love exploring new tech,
+              and Node.js. When I&apos;m not coding, I love exploring new tech,
               contributing to open-source, and sharing knowledge.
             </p>
 
             <p className="about-description">
-              Beyond coding, I’m a music producer, mixing, and mastering
+              Beyond coding, I&apos;m a music producer, mixing, and mastering
               engineer. I merge tech and sound design to deliver high-quality
               projects across web and music domains.
             </p>

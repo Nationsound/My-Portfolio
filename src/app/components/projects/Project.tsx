@@ -1,5 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import styles from "./Project.module.css";
 
 const projects = [
@@ -24,7 +25,6 @@ const projects = [
     demoLink: "https://example.com",
     githubLink: "https://github.com/Nationsound/project-three"
   }
-  // Add more projects here
 ];
 
 const Projects = () => {
@@ -39,7 +39,7 @@ const Projects = () => {
         >
           My Projects
         </motion.h2>
-        
+
         <motion.div
           className={styles.projectsGrid}
           initial={{ opacity: 0 }}
@@ -54,15 +54,34 @@ const Projects = () => {
               whileTap={{ scale: 0.95 }}
               transition={{ type: "spring", stiffness: 200 }}
             >
-              <img src={project.imgSrc} alt={project.title} className={styles.projectImage} />
+              <div className={styles.projectImageWrapper}>
+                <Image
+                  src={project.imgSrc}
+                  alt={project.title}
+                  className={styles.projectImage}
+                  width={500}
+                  height={300}
+                  layout="responsive"
+                />
+              </div>
               <div className={styles.projectInfo}>
                 <h3 className={styles.projectTitle}>{project.title}</h3>
                 <p className={styles.projectDescription}>{project.description}</p>
                 <div className={styles.projectLinks}>
-                  <a href={project.demoLink} target="_blank" rel="noopener noreferrer" className={styles.projectLink}>
+                  <a
+                    href={project.demoLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.projectLink}
+                  >
                     Live Demo
                   </a>
-                  <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className={styles.projectLink}>
+                  <a
+                    href={project.githubLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.projectLink}
+                  >
                     GitHub
                   </a>
                 </div>
