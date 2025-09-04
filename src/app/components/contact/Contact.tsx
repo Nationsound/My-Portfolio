@@ -10,7 +10,6 @@ import {
   FaFacebook,
 } from "react-icons/fa";
 
-// Type definition for form data
 interface FormData {
   name: string;
   email: string;
@@ -27,7 +26,9 @@ const Contact = () => {
   const [status, setStatus] = useState<string>(""); // Feedback message
   const [loading, setLoading] = useState<boolean>(false); // Submission state
 
-  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
@@ -37,10 +38,11 @@ const Contact = () => {
     setStatus("");
 
     try {
-      const response = await fetch("/api/contact", {
+      const response = await fetch("https://formspree.io/f/mldbakoq", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          Accept: "application/json",
         },
         body: JSON.stringify(formData),
       });
@@ -49,9 +51,10 @@ const Contact = () => {
         setStatus("Message sent successfully! ✅");
         setFormData({ name: "", email: "", message: "" });
       } else {
-        setStatus("Failed to send message. Please try again. ❌");
+        const data = await response.json();
+        setStatus(data.error || "Failed to send message. Please try again. ❌");
       }
-    } catch (_error) {
+    } catch {
       setStatus("An error occurred. Please try again later. ❌");
     } finally {
       setLoading(false);
@@ -86,19 +89,44 @@ const Contact = () => {
           initial={{ opacity: 0, y: 20 }}
           transition={{ duration: 1, delay: 0.3 }}
         >
-          <a href="https://facebook.com/profile.php?id=61573798280662" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://facebook.com/profile.php?id=61573798280662"
+            aria-label="Facebook"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaFacebook className={`${styles.icon} ${styles.facebook}`} />
           </a>
-          <a href="https://instagram.com/mynatblog/" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://instagram.com/natio_nsound/"
+            aria-label="Instagram"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaInstagram className={`${styles.icon} ${styles.instagram}`} />
           </a>
-          <a href="https://twitter.com/MNBlog25" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://twitter.com/NationSound4"
+            aria-label="Twitter"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaTwitter className={`${styles.icon} ${styles.twitter}`} />
           </a>
-          <a href="https://linkedin.com/in/olusola-oguntuase-779069353/" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://linkedin.com/in/olusola-oguntuase-779069353/"
+            aria-label="LinkedIn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaLinkedin className={`${styles.icon} ${styles.linkedin}`} />
           </a>
-          <a href="https://github.com/Nationsound" aria-label="GitHub" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://github.com/Nationsound"
+            aria-label="GitHub"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaGithub className={`${styles.icon} ${styles.github}`} />
           </a>
         </motion.div>

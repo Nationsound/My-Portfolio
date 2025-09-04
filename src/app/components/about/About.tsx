@@ -37,39 +37,37 @@ const About = () => {
           <div className="about-text">
             <h2 className="about-heading">About Me</h2>
             <p className="about-description">
-              Hi, I&apos;m{" "}
+              Hi, I am{" "}
               <span style={{ fontWeight: "bold", color: "#2563EB" }}>
-                Olusola Adebayo Oguntuase
+              Olusola Adebayo Oguntuase
               </span>
-              , a passionate web developer with expertise in{" "}
-              <strong>React, Next.js, Node.js, and MongoDB</strong>. I love
-              crafting seamless user experiences and solving complex problems
-              through code.
-            </p>
+               , a passionate web developer with expertise in{" "}
+              <strong>React, Next.js, Node.js, MongoDB and SQL</strong>. I love crafting
+              seamless user experiences and solving complex problems through code.
+             </p>
+
 
             <p className="about-description">
               My journey started with curiosity about how websites work, and now
               I specialize in modern frameworks like Next.js, React, HTML, CSS,
-              and Node.js. When I&apos;m not coding, I love exploring new tech,
+              and Node.js. When I am not coding, I love exploring new tech,
               contributing to open-source, and sharing knowledge.
             </p>
 
             <p className="about-description">
-              Beyond coding, I&apos;m a music producer, mixing, and mastering
+              Beyond coding, I am a music producer, mixing, and mastering
               engineer. I merge tech and sound design to deliver high-quality
               projects across web and music domains.
             </p>
 
             <p className="about-description">
               With a unique blend of tech and music production skills, I am
-              always exploring innovative ways to merge the two fields, pushing
+              always exploring innovative solutions and ideas to push
               boundaries in both industries.
             </p>
 
             <p className="about-description">
-              "My foundation in English and Literature fuels my songwriting and
-              design intuition, adding a unique edge to the digital experiences
-              I create."
+           {"My foundation in English and Literature fuels my songwriting and design intuition, adding a unique edge to the digital experiences I create."}
             </p>
 
             {/* 🎓 Education Background */}
@@ -126,11 +124,12 @@ const About = () => {
 
             <h2 className="about-heading">🎶 Songwriter</h2>
             <div className="song-list">
-              <p className="song-description">
+             <p className="song-description">
                 I have written and published numerous songs. Among them, my first
-                single, titled <strong>"Recognition"</strong>, was released on{" "}
+                single, titled <strong>&quot;Recognition&quot;</strong>, was released on{" "}
                 <em>January 15, 2022</em>. Below are a few of my notable songs:
-              </p>
+             </p>
+
 
               {[
                 {
@@ -173,7 +172,7 @@ const About = () => {
 
             <h4 className="about-heading-a">Certifications & Skills</h4>
             <ul className="about-description">
-              <li>✅ Full-Stack Development – Next.js, React, HTML, CSS, MongoDB</li>
+              <li>✅ Full-Stack Development – Next.js, Node.js, React, HTML, CSS, MongoDB</li>
               <li>✅ Music Production & Sound Engineering – Mixing, Mastering</li>
               <li>✅ Authentication & Security – Access token, Role-based systems</li>
               <li>✅ UI/UX Design – Front-end aesthetics and animations</li>

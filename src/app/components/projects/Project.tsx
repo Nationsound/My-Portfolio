@@ -6,22 +6,22 @@ import styles from "./Project.module.css";
 const projects = [
   {
     title: "Project One",
-    description: "A brief description of project one.",
-    imgSrc: "/images/project1.jpeg",
+    description: "A scalable and responsive blog websites for news, and entertaiment, styles and more, using react and node.js",
+    imgSrc: "/images/project4.png",
     demoLink: "https://example.com",
     githubLink: "https://github.com/Nationsound/project-one"
   },
   {
     title: "Project Two",
-    description: "A brief description of project two.",
-    imgSrc: "/images/project2.jpeg",
+    description: "A portfolio website with responsive layout and smooth animations.",
+    imgSrc: "/images/project2.png",
     demoLink: "https://example.com",
     githubLink: "https://github.com/Nationsound/project-two"
   },
   {
     title: "Project Three",
-    description: "A brief description of project three.",
-    imgSrc: "/images/project3.jpeg",
+    description: "A Comment and Rating System integrated with backend APIs.",
+    imgSrc: "/images/project3.png",
     demoLink: "https://example.com",
     githubLink: "https://github.com/Nationsound/project-three"
   }
