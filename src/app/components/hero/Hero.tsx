@@ -6,7 +6,7 @@ const Hero = () => {
     <section className={styles.hero}>
       <div className={styles.heroContent}>
         <h1 className={styles.heroTitle}>Hi, I am Olusola Adebayo Oguntuase</h1>
-        <h4 className={styles.heroSubtitle}>Full-Stack Developer | Music Producer | Mixing & Mastering (Sound) Engineer</h4>
+        <h4 className={styles.heroSubtitle}>Full-Stack Developer | UX/UI Designer </h4>
         <p className={styles.heroSubtitle}>
           A passionate web developer specializing in Next.js, React, Node.js and modern web technologies.
         </p>

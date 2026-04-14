@@ -55,6 +55,21 @@ const About = () => {
             </p>
 
             <p className="about-description">
+              I don't just move pixels; I architect digital experiences that are 
+              technically feasible and user-centered. With certifications in both 
+              UX/UI Design and Full-Stack Web Development, I speak the language of 
+              both users and compilers.
+            </p>
+
+            <p className="about-description">
+              My approach is rooted in Design Research and Innovation. 
+              Whether I am collaborating with DYB Africa on high-impact contract projects or 
+              building scalable platforms like Olatinn Limited, I prioritize the "why" before the "how". 
+              For Olatinn Limited, I transformed a vision for tech innovation into a high-performance 
+              digital presence with a core focus on conversion-centered design and clean visual identity.
+            </p>
+
+            <p className="about-description">
               Beyond coding, I am a music producer, mixing, and mastering
               engineer. I merge tech and sound design to deliver high-quality
               projects across web and music domains.
@@ -113,16 +128,23 @@ const About = () => {
               <li>Built scalable full-stack applications using React and Node.js.</li>
               <li>Integrated MongoDB databases and user authentication systems.</li>
               <li>Created responsive admin dashboards and UI components.</li>
+              <li>I also have experienced in maintaining a clean project history through interactive rebasing and 
+                efficiently resolving complex merge conflicts in multi-contributor environments</li>
+              <li>I Implemented a Feature Branch workflow using Pull Requests for code reviews, which reduced 
+                merge conflicts by [X]% and improved overall code quality.</li>
+              <li>User Research & Strategy: Leveraging data and behavioral psychology to inform interface architecture.</li>
+              <li>End-to-End Development: Proficient in building responsive, secure websites (like https://www.mynationblog.fun) 
+                using modern tech stacks (React, Node.js).</li>
             </ul>
 
-            <h4 className="about-heading-a">Music Producer & Mixing Engineer</h4>
+            {/* <h4 className="about-heading-a">Music Producer & Mixing Engineer</h4>
             <ul className="about-description">
               <li>Produced and engineered high-quality tracks for independent artists and record labels.</li>
               <li>Provided mixing and mastering services to enhance sound clarity and industry-standard quality.</li>
               <li>Worked with various genres, ensuring creative and technical precision in music production.</li>
-            </ul>
+            </ul> */}
 
-            <h2 className="about-heading">🎶 Songwriter</h2>
+            {/* <h2 className="about-heading">🎶 Songwriter</h2>
             <div className="song-list">
              <p className="song-description">
                 I have written and published numerous songs. Among them, my first
@@ -161,13 +183,17 @@ const About = () => {
                   </a>
                 </div>
               ))}
-            </div>
+            </div> */}
 
             <h4 className="about-heading-a">Notable Projects</h4>
             <ul className="about-description">
               <li>🔹 Portfolio Website with smooth animations and responsive layout.</li>
               <li>🔹 Song Streaming Platform with admin uploads and user interactions.</li>
               <li>🔹 Comment and Rating System integrated with backend APIs.</li>
+              <li>🔹 Logistics websites as a collaborator with e-commerce functionality</li>
+              <li>🔹 A digital storefront that drives business results</li>
+              <li>🔹 Backend Integration</li>
+              <li>🔹 DevOps services</li>
             </ul>
 
             <h4 className="about-heading-a">Certifications & Skills</h4>
