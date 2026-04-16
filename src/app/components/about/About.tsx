@@ -77,7 +77,7 @@ const About = () => {
             <p className="about-description">
               With a unique blend of tech and music production skills, I am
               always exploring innovative solutions and ideas to push
-              boundaries in both industries.
+              boundaries in both industries.That is, entertainment and technology.
             </p>
 
             <p className="about-description">
