@@ -64,7 +64,7 @@ const About = () => {
             <p className="about-description">
               My approach is rooted in Design Research and Innovation. 
               Whether I am collaborating with DYB Africa on high-impact contract projects or 
-              building scalable platforms like Olatinn Limited, I prioritize the "why" before the "how". 
+              building scalable platforms like Olatinn Limited, I prioritize the why {" "} before the how {" "}. 
               For Olatinn Limited, I transformed a vision for tech innovation into a high-performance 
               digital presence with a core focus on conversion-centered design and clean visual identity.
             </p>
@@ -136,54 +136,6 @@ const About = () => {
               <li>End-to-End Development: Proficient in building responsive, secure websites (like https://www.mynationblog.fun) 
                 using modern tech stacks (React, Node.js).</li>
             </ul>
-
-            {/* <h4 className="about-heading-a">Music Producer & Mixing Engineer</h4>
-            <ul className="about-description">
-              <li>Produced and engineered high-quality tracks for independent artists and record labels.</li>
-              <li>Provided mixing and mastering services to enhance sound clarity and industry-standard quality.</li>
-              <li>Worked with various genres, ensuring creative and technical precision in music production.</li>
-            </ul> */}
-
-            {/* <h2 className="about-heading">🎶 Songwriter</h2>
-            <div className="song-list">
-             <p className="song-description">
-                I have written and published numerous songs. Among them, my first
-                single, titled <strong>&quot;Recognition&quot;</strong>, was released on{" "}
-                <em>January 15, 2022</em>. Below are a few of my notable songs:
-             </p>
-
-
-              {[
-                {
-                  title: "Recognition",
-                  date: "Released on January 15, 2023",
-                  link: "https://heylink.me/olusola4/music/23902/",
-                },
-                {
-                  title: "Gratitude",
-                  date: "Released on December 18, 2023",
-                  link: "https://open.spotify.com/track/5hCXrOG5birb6N9I7OmvgJ?si=vMHY8fxBSLWApCmkZbJaWA",
-                },
-                {
-                  title: "Ambition",
-                  date: "Released August 26, 2024",
-                  link: "https://open.spotify.com/track/6I7iGjqqHLU8qRscYYAsgz?si=EputvM1TQFCjg70eMD0XmA",
-                },
-              ].map((song, index) => (
-                <div className="song-item" key={index}>
-                  <h4 className="song-title">{song.title}</h4>
-                  <p className="song-date">{song.date}</p>
-                  <a
-                    href={song.link}
-                    className="song-link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Listen to {song.title}
-                  </a>
-                </div>
-              ))}
-            </div> */}
 
             <h4 className="about-heading-a">Notable Projects</h4>
             <ul className="about-description">
