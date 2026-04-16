@@ -13,8 +13,7 @@ import {
   SiTailwindcss,
 } from "react-icons/si";
 import { GiBookshelf } from "react-icons/gi";
-import "./About.css";
-
+import "../cssModules/About.module.css";
 const About = () => {
   return (
     <section id="about" className="about-section">
