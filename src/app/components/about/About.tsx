@@ -54,7 +54,7 @@ const About = () => {
             </p>
 
             <p className="about-description">
-              I don't just move pixels; I architect digital experiences that are 
+              I do not just move pixels; I architect digital experiences that are 
               technically feasible and user-centered. With certifications in both 
               UX/UI Design and Full-Stack Web Development, I speak the language of 
               both users and compilers.
